@@ -3,21 +3,16 @@
 
 # Federated Tumor Segmentation Challenge
 
-The repo for the FeTS Challenge: The 1st Computational Competition on Federated Learning.
+Repo for FeTS Challenge: The 1st Computational Competition on Federated Learning.
+Year 2024 and beyond
 
 ## Website
 
 https://www.synapse.org/#!Synapse:syn28546456
 
-## Challenge Tasks
+## Challenge Task
+The challenge involves customizing core functions of a baseline federated learning system implementation. The goal is to improve over the baseline consensus models in terms of robustness in final model scores to data heterogeneity across the simulated collaborators of the federation. For more details, please see [Task_1](./Task_1).
 
-### Task 1
-
-The first task of the challenge involves customizing core functions of a baseline federated learning system implementation. The goal is to improve over the baseline consensus models in terms of robustness in final model scores to data heterogeneity across the simulated collaborators of the federation. For more details, please see [Task_1](./Task_1).
-
-### Task 2
-
-This task utilizes federated testing across various sites of the FeTS initiative in order to evaluate model submissions across data from different medical institutions, MRI scanners, image acquisition parameters and populations. The goal of this task is to find algorithms (by whatever training technique you wish to apply) that score well across these data. For more details, please see [Task_2](./Task_2).
 
 ## Documentation and Q&A
 

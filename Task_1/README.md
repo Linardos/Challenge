@@ -1,4 +1,4 @@
-# FeTS 2022 Challenge Task 1
+# FeTS 2024+ Challenge Task 1
 Task 1 (**"Federated Training"**) aims at effective weight aggregation methods for the creation of a consensus model given a pre-defined segmentation algorithm for training, while also (optionally) accounting for network outages.
 
 Please ask any additional questions in our discussion pages on our github site and we will try to update this README.md as we identify confusions/gaps in our explanations and instructions.
