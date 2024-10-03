@@ -520,6 +520,16 @@ training_hyper_parameters_for_round = constant_hyper_parameters
 # expensive to compute, excluding them will speed up your experiments.
 include_validation_with_hausdorff=True
 
+""" SP notes
+I think we should provide the following details:
+1. Documentation updates: 
+  a. Where to download the data from (it would be great if we could automate this, but I am not sure if synapse has that API)?
+  b. Where to extract the data ***RELATIVE TO THIS FILE***?
+2. Code updates:
+  a. Check for the existence of the pre-defined extraction location, and if data is present there. If not, present an error to the user.
+  b. Instead of the hard-coded `institution_split_csv_filename` and `brats_training_data_parent_dir`, we should use the pre-defined location in 1.b. Change the variable `data_path` (below) appropriately.
+"""
+
 # We encourage participants to experiment with partitioning_1 and partitioning_2, as well as to create
 # other partitionings to test your changes for generalization to multiple partitionings.
 #institution_split_csv_filename = 'partitioning_1.csv'
