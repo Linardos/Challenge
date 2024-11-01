@@ -1,0 +1,1 @@
+Task 2 is still available on this link: https://github.com/FeTS-AI/Challenge/tree/2022/Task_2
